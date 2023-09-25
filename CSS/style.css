@@ -1,0 +1,117 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family:monospace;
+}
+body
+{
+	margin:0px;
+	padding: 0px;
+	text-align:center;
+	justify-content: center;
+	display: flex;
+	background-image: url(kaido.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100vh;
+
+}
+.calculator
+{
+	margin:200px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px 10px rgba(200,0,0,0.8);
+	padding:5px;
+	background-image: url(luffy.gif);
+	border-radius:10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+input[type=text]
+{
+	width:250px;
+	height:50px;
+	text-align:right;
+	font-size:30px;
+	border-radius: 10px;
+	border:2px solid BLACK;
+	padding:5px;
+}
+input::placeholder
+{
+	background: transparent;
+	color: BLACK;
+	border-radius:10px;
+	
+}
+input[type=button]
+{
+	width:60px;
+	height:50px;
+	margin-top:10px;
+	font-size:20px;
+	border:2px solid BLACK;
+	border-radius:5px;
+}
+form input.equal
+{	
+	background: ORANGE;
+}
+form input.equal:HOVER
+{
+	color:WHITE;
+	background: BLUE;
+}
+
+.delete
+{
+	background: YELLOW;
+}
+.delete:HOVER
+{
+	background: BLUE;
+	color:WHITE;
+}
+.operator
+{
+	background:GREEN;
+	text-shadow: -1px 1px 1px WHITE;
+}
+.operator:HOVER
+{
+	background: BLUE;
+	color:WHITE;
+	text-shadow: -1px 1px 1px BLACK;
+}
+.exponent
+{
+	background: WHITE;
+	font-size: 30px;
+	border-radius:5px;
+
+}
+.button{
+	width:60px;
+	height:50px;
+	margin-top:10px;
+	font-size:20px;
+	border:2px solid BLACK;
+	border-radius:5px;
+	background: YELLOW;
+}
+.button:HOVER
+{
+	background: BLUE;
+	color:WHITE;
+}
+.expo1
+{
+	color:YELLOW;
+	background:RED;
+	margin-top:1px;
+	margin-bottom: 2px;
+	font-size:20px;
+}
