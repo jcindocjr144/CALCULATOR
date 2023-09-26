@@ -92,7 +92,12 @@ form input.equal:HOVER
 	font-size: 30px;
 	border-radius:5px;
 }
-.exponent:HOVER
+.expo1
+{
+	background:CYAN;
+}
+
+.expo1:HOVER
 {
 	background: BLUE;
 	color:WHITE;
