@@ -88,10 +88,15 @@ form input.equal:HOVER
 }
 .exponent
 {
-	background: WHITE;
+	background: CYAN;
 	font-size: 30px;
 	border-radius:5px;
-
+}
+.exponent:HOVER
+{
+	background: BLUE;
+	color:WHITE;
+	text-shadow: -1px 1px 1px BLACK;
 }
 .button{
 	width:60px;
