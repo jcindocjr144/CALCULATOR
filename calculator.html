@@ -3,7 +3,6 @@
 <head>
 	<title>CALCULATOR</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-	<link rel="shortcut icon" href="IMAGES/calculator.png" >
 </head>
 <body>
 	<div class="container">
@@ -16,8 +15,8 @@
 		<p class="exponent" id="equal">0</p>
 		<div>
 			</div>	
-			<input type="button" value="AC" onclick="clr();" class="delete" >
-			<input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1) " class="delete">
+			<input type="button" value="AC" onclick="ac()" class="delete" >
+			<input type="button" value="DEL" onclick="del()" class="delete">
 			<input type="button" value="x²" onclick="expo()">
 			<input type="button" value="/" onclick="display.value += '/' " class="operator">
 		</div>
@@ -49,24 +48,8 @@
 			</form>
 	</div>
 </div>
- <script type="text/javascript">
-  	function expo(event) {
-    var a = document.getElementById("display").value;
-    var multiply = '';
-                        
-    for (i = 1; i < 2; i++) {
-            multiply += Math.pow(a,2);
-    }
-    document.getElementById("equal").innerHTML = multiply;
-    //document.getElementById("form1").onSubmit
-    return 0;
-}
-	function clr()
-	{
-		display.value = '';
-	}
-
-
+ <script type="text/javascript" src="JS/calc.js">
+  	
   </script>
 </body>
 </html>
