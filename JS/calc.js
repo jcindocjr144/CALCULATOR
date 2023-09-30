@@ -20,7 +20,7 @@ function expo(event) {
 		equal.value = equal.value.toString().slice(0,-1);
 	}
 let isNegative = false;
-	function toggleSign(){
+	function negative(){
 		const display=document.getElementById('display');
 		if(display.value !== '' && display.value !== 'Error')
 		{
@@ -33,7 +33,7 @@ let isNegative = false;
 			isNegative = !isNegative;
 		}
 	}
-	function calculatePercentage()
+	function percentage()
 	{
 		const display = document.getElementById('display');
 		const currentValue = parseFloat(display.value);
