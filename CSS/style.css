@@ -122,6 +122,7 @@ input[type=button].expo2
 	background: CYAN;
 	font-size: 30px;
 	border-radius:5px;
+	border:2px solid BLACK;
 }
 .expo2
 {
