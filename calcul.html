@@ -14,12 +14,17 @@
 		<br>
 		<p class="expo1">Exponential Value:</p>
 		<p class="exponent" id="equal">0</p>
-		<div>
-			</div>	
+			</div>
+			<div>	
 			<input type="button" value="AC" onclick="ac()" class="delete" >
 			<input type="button" value="DEL" onclick="del()" class="delete">
-			<input type="button" value="x²" onclick="expo()" class="expo2">
+			<input type="button" value="-" onclick="toggleSign()" class="extra">
 			<input type="button" value="/" onclick="display.value += '/' " class="operator">
+		</div>
+		<div>	
+			<input type="button1" value="%" onclick="calculatePercentage()" class="extra">
+			<input type="button1" value="x²" onclick="expo()" class="expo2">
+			
 		</div>
 		<div>
 			<input type="button" value="7" onclick="display.value += '7' ">
