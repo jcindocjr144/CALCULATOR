@@ -112,7 +112,6 @@ input[type=button].expo2
 .operator
 {
 	background:GREEN;
-	text-shadow: -1px 1px 1px WHITE;
 }
 .operator:HOVER
 {
