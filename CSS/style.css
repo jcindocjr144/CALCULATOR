@@ -24,7 +24,7 @@ body
 	border: 1px solid black;
 	box-shadow: 0 0 5px 10px rgba(200,0,0,0.8);
 	padding:5px;
-	background-image: url(../IMAGES/luffy.gif);
+	background:GRAY;
 	border-radius:10px;
 	background-size: cover;
 	background-repeat: no-repeat;
