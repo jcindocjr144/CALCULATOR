@@ -1,4 +1,4 @@
-function expo(event) {
+function exponential(event) {
     var a = document.getElementById("display").value;
     var multiply = '';
                         
