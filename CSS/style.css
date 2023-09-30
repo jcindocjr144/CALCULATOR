@@ -53,12 +53,12 @@ input[type=button]
 	height:50px;
 	margin-top:10px;
 	font-size:20px;
-	border:5px solid BLACK;
+	border:2px solid BLACK;
 	border-radius:5px;
 }
 input[type=button]:HOVER
 {
-	border: 2px solid RED;
+	border: 5px solid RED;
 }
 form input.equal
 {	
