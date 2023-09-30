@@ -17,4 +17,27 @@ function expo(event) {
 	function del()
 	{
 		display.value = display.value.toString().slice(0,-1);
+		equal.value = equal.value.toString().slice(0,-1);
+	}
+let isNegative = false;
+	function toggleSign(){
+		const display=document.getElementById('display');
+		if(display.value !== '' && display.value !== 'Error')
+		{
+			if (isNegative) {
+				display.value = display.value.substring(1);
+			}
+			else{
+				display.value = '-' + display.value;
+			}
+			isNegative = !isNegative;
+		}
+	}
+	function calculatePercentage()
+	{
+		const display = document.getElementById('display');
+		const currentValue = parseFloat(display.value);
+		if(!isNaN(currentValue)){
+			display.value = currentValue / 100;
+		}
 	}
