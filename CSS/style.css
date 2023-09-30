@@ -11,7 +11,7 @@ body
 	text-align:center;
 	justify-content: center;
 	display: flex;
-	background-image: url(kaido.gif);
+	background-image: url(IMAGES/kaido.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -24,7 +24,7 @@ body
 	border: 1px solid black;
 	box-shadow: 0 0 5px 10px rgba(200,0,0,0.8);
 	padding:5px;
-	background-image: url(luffy.gif);
+	background-image: url(IMAGES/luffy.gif);
 	border-radius:10px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -65,7 +65,17 @@ form input.equal:HOVER
 	color:WHITE;
 	background: BLUE;
 }
-input[type=button1]
+input[type=button].extra
+{
+	width:123px;
+	height:50px;
+	margin-top:10px;
+	font-size:20px;
+	border:2px solid BLACK;
+	border-radius:5px;
+	text-align: center;
+}
+input[type=button].expo2
 {
 	width:123px;
 	height:50px;
@@ -94,6 +104,7 @@ input[type=button1]
 	background: BLUE;
 	color:WHITE;
 }
+
 .operator
 {
 	background:GREEN;
